@@ -14,3 +14,4 @@ RABBITMQ_NEXT_QUEUE = os.getenv("RABBITMQ_NEXT_QUEUE", "next_processing_queue")
 # Directus API
 DIRECTUS_API_URL = os.getenv("DIRECTUS_API_URL", "localhost")
 DIRECTUS_STATIC_TOKEN = os.getenv("DIRECTUS_STATIC_TOKEN", "")
+UPLOAD_FILES_BATCH_SIZE = int(os.getenv("UPLOAD_FILES_BATCH_SIZE", 50))
